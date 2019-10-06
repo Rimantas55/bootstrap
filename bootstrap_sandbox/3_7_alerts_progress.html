@@ -97,16 +97,52 @@
             <strong>Secondary</strong> Blog post added
         </div>
 
-        <div>
-            <strong>Success</strong> Blog post added
-        </div>
-
-        <div>
+        <div class="alert alert-success alert-dismissable">
+            <button class="close" data-dismiss="alert" type="button">
+                <span>&times;</span>
+            </button> 
             <strong>Danger</strong> Please check the log files
         </div>
 
-        <div>
+
+<!-- <div class="alert alert-warning alert-dismissable" >
+    <button class="close" type="button" data-dismiss="alert">
+        <span>&times;</span>
+    </button>
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">asasd</span>
+        </div>
+    <input type="" name="" placeholder="sdad" class="form-control">        
+    </div>
+</div> -->
+
+<!-- <div class="progress progress-warning ">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%;">25%</div>
+</div> -->
+
+        <div class="alert alert-danger alert-dismissable">
+            <button class="close" type="button" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+            <strong>Danger</strong> Please check the log files
+        </div>
+
+        <div class="alert alert-info alert-dismissable">
+            <button class="close" type="button" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
             <strong>Info</strong> You have a new message
+        </div>
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">smth</span>
+            </div>
+            <input class="form-control" type="" name="" placeholder="smth">
+            <div class="input-group-append">
+                <span class="input-group-text">tel</span>
+            </div>
         </div>
 
         <div>
@@ -123,8 +159,8 @@
 
 
         <!-- DISMISSABLE ALERT -->
-        <div>
-            <button type="button">
+        <div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert">
                 <span>&times;</span>
             </button>
             <strong>Dismissable</strong> Blog post added
@@ -143,16 +179,16 @@
         <br>
 
         <!-- PROGRESS BARS -->
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 25%;"> 25%</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress" style="height: 30px;">
+            <div class=" progress-bar progress-bar-striped bg-danger" style="width: 30%">30%</div>
         </div>
         <br>
-        <div>
-            <div></div>
+        <div class="progress">
+            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 60%">60%</div>
         </div>
         <br>
         <div>
